@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, Mail } from "lucide-react"
+import { Github, Twitter, Linkedin, Youtube } from "lucide-react"
 
 export function Footer() {
   return (
@@ -8,37 +8,37 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <h2 className="font-orbitron text-2xl font-bold text-white mb-4">
-              Synapse<span className="text-red-500">AI</span>
+              SPACE<span className="text-red-500">X</span>
             </h2>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
-              Продвигаем будущее нейросвязи с передовыми технологиями интерфейса мозг-компьютер.
+              Making Life Multiplanetary. Мы строим технологии, которые сделают человечество межпланетной цивилизацией.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
+              <a href="https://twitter.com/spacex" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
+              <a href="https://github.com/spacex" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
                 <Github size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
+              <a href="https://linkedin.com/company/spacex" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
-                <Mail size={20} />
+              <a href="https://youtube.com/spacex" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
+                <Youtube size={20} />
               </a>
             </div>
           </div>
 
-          {/* Product */}
+          {/* Программы */}
           <div>
-            <h3 className="font-orbitron text-white font-semibold mb-4">Продукт</h3>
+            <h3 className="font-orbitron text-white font-semibold mb-4">Программы</h3>
             <ul className="space-y-2">
               <li>
                 <a
                   href="#technology"
                   className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
                 >
-                  Технологии
+                  Starship
                 </a>
               </li>
               <li>
@@ -46,15 +46,15 @@ export function Footer() {
                   href="#applications"
                   className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
                 >
-                  Применения
+                  Roadmap
                 </a>
               </li>
               <li>
                 <a
-                  href="#safety"
+                  href="#technology"
                   className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
                 >
-                  Безопасность
+                  Starlink
                 </a>
               </li>
               <li>
@@ -62,19 +62,19 @@ export function Footer() {
                   href="#faq"
                   className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
                 >
-                  Вопросы
+                  FAQ
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Company */}
+          {/* Миссия */}
           <div>
-            <h3 className="font-orbitron text-white font-semibold mb-4">Компания</h3>
+            <h3 className="font-orbitron text-white font-semibold mb-4">Миссия</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  О нас
+                  О SpaceX
                 </a>
               </li>
               <li>
@@ -84,7 +84,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Пресса
+                  Пресс-центр
                 </a>
               </li>
               <li>
@@ -99,7 +99,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-red-500/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="font-space-mono text-gray-400 text-sm">2025 SynapseAI. Все права защищены.</p>
+            <p className="font-space-mono text-gray-400 text-sm">© 2025 Space Exploration Technologies Corp. Все права защищены.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a
                 href="#"
@@ -111,13 +111,7 @@ export function Footer() {
                 href="#"
                 className="font-space-mono text-gray-400 hover:text-red-500 text-sm transition-colors duration-200"
               >
-                Условия использования
-              </a>
-              <a
-                href="#"
-                className="font-space-mono text-gray-400 hover:text-red-500 text-sm transition-colors duration-200"
-              >
-                Cookie-политика
+                Условия
               </a>
             </div>
           </div>

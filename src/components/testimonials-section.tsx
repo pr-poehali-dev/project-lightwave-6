@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
+    name: "Илон Маск",
+    role: "CEO SpaceX, основатель",
+    avatar: "/placeholder-user.jpg",
+    content:
+      "Я хочу умереть на Марсе — только не при ударе о него. SpaceX создана, чтобы сделать человечество межпланетной цивилизацией.",
+  },
+  {
+    name: "Гвинн Шотвелл",
+    role: "Президент и COO SpaceX",
     avatar: "/professional-woman-scientist.png",
     content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
+      "Наша цель — снизить стоимость доступа в космос настолько, чтобы открыть его для всего человечества. Многоразовость — ключ к этому.",
   },
   {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Томас Песке",
+    role: "Астронавт ESA, экипаж Crew Dragon",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
-  },
-  {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
-    avatar: "/asian-woman-tech-developer.jpg",
-    content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Полёт на Crew Dragon — совершенно другой опыт. SpaceX переосмыслила всё — от интерфейса до комфорта. Это будущее космических путешествий.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Голоса миссии</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Что говорят те, кто создаёт и воплощает самую амбициозную космическую программу в истории
           </p>
         </div>
 
